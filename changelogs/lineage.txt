@@ -1,0 +1,6 @@
+20240525
+- SIGNED BUILD to pass Device Integrity in Google Play Integrity (still needs PIF). Clean flash is mandatory if you coming from previous build
+- Update Adreno drivers to v757
+- fix dt2w note (still, not working in fts_ts display though)
+
+past changelog: https://telegra.ph/LineageOS-21-fog-Unofficial---20240219-changelog-02-19
