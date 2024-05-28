@@ -1,3 +1,10 @@
+20240528
+- Use media blobs from CLO (this also fixes android.hardware.media.omx crash (SIGABRT) at startup)
+- Build missing C2 codecs
+- media: drop media_codecs XMLs in tree
+- Bring back mediacodec-seccomp.policy
+- Revert "fog: Set default dexpreopt compiler filter to verify" (back using 'everything' dexpreopt filter)
+
 20240525
 - SIGNED BUILD to pass Device Integrity in Google Play Integrity (may still needs PIF). Clean flash is mandatory if you coming from previous build
 - Update Adreno drivers to v757
