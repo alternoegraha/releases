@@ -4,6 +4,8 @@
 - media: drop media_codecs XMLs in tree
 - Bring back mediacodec-seccomp.policy
 - Revert "fog: Set default dexpreopt compiler filter to verify" (back using 'everything' dexpreopt filter)
+- Add android.media.audio.common.types-V1-cpp.so library
+- Build android.hardware.media.c2@1.0.vendor
 
 20240525
 - SIGNED BUILD to pass Device Integrity in Google Play Integrity (may still needs PIF). Clean flash is mandatory if you coming from previous build
