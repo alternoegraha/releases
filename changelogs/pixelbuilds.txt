@@ -2,3 +2,4 @@
 - First new build since December 2023/January 2024
 - bring some changes from my A14 QPR2 tree
 - Ship with GrapheneOS Camera
+- May 2024 secpatch (UD2A tag)
