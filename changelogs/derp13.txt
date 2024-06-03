@@ -1,0 +1,3 @@
+20240603
+- First new A13 build since September 2023
+- bring some device tree changes from A14, including updated Adreno drivers
