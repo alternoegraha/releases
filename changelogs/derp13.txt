@@ -1,3 +1,7 @@
+20240604
+- Signed build. Users who flashed previous build(s) need to clean flash
+- Fixed 1080p60 video lagging (tested by @whoiswjo)
+
 20240603
 - First new A13 build since September 2023
 - bring some device tree changes from A14, including updated Adreno drivers
