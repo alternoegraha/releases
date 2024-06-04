@@ -1,5 +1,6 @@
-03062024
+04062024
 - Signed build to pass Device Integrity w/PIF module.
+- Fixed 1080p60 video lagging (tested by @whoiswjo)
 
 02062024
 - First new build since December 2023/January 2024
