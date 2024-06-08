@@ -1,3 +1,8 @@
+08062024
+- Bring back NotchBarKiller
+- powerhint: reduce launch hint duration to 2000
+- Reapply "fog: configs: powerhint: setup GPU boosting"
+
 04062024
 - Signed build to pass Device Integrity w/PIF module.
 - Fixed 1080p60 video lagging (tested by @whoiswjo)
