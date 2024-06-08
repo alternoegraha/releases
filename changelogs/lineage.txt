@@ -1,5 +1,5 @@
 20240608
-- Revert ALL media changes since 20240528, now go back to old configs (also fixes 1080p60 youtube playback lagging)
+- Revert ALL media changes since 20240528, now go back to old configs and blobs from MIUI (also fixes 1080p60 youtube playback lagging)
 - props: Use media_profiles_vendor. for media.settings.xml, again
 - props: move LMKD props to system.prop, again
 - props: Move media codec properties to system.prop
