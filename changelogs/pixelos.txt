@@ -1,0 +1,14 @@
+20240610
+- Signed build
+- Update Adreno drivers to v757
+- Revert configs/media changes (also fixes 1080p60 youtube playback lagging)
+- props: Use media_profiles_vendor. for media.settings.xml, again
+- props: move LMKD props to system.prop, again
+- props: Move media codec properties to system.prop
+- Bring back NotchBarKiller
+- powerhint: reduce launch hint duration to 2000
+- Reapply "fog: configs: powerhint: setup GPU boosting"
+- Sync to latest PixelOS sources
+- any misc. changes
+
+Past changelog: https://telegra.ph/PixelOS-fog-Unofficial---20240220-changelog-02-20
