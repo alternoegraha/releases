@@ -1,3 +1,6 @@
+20240612
+- Build CertifiedPropsOverlay (fixes PI's Device Integrity)
+
 20240610
 - Signed build
 - Update Adreno drivers to v757
