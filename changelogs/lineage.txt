@@ -1,3 +1,8 @@
+20240626
+- Merge June ASB and A14 QPR3
+- Build missing libraries for 14 QPR3
+- Build missing audio VNDK libraries
+
 20240608
 - Revert ALL media changes since 20240528, now go back to old configs and blobs from MIUI (also fixes 1080p60 youtube playback lagging)
 - props: Use media_profiles_vendor. for media.settings.xml, again
