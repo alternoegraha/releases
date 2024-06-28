@@ -1,3 +1,9 @@
+20240628
+- June 2024 ASB and A14 QPR3 release
+- Build missing libraries for 14 QPR3
+- Build missing audio VNDK libraries
+- props: "Adjust and fix LMKD"
+
 20240612
 - Build CertifiedPropsOverlay (fixes PI's Device Integrity)
 
