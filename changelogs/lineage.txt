@@ -1,3 +1,14 @@
+20240728
+- props: "Adjust and fix LMKD"
+- Remove software omx codec references
+- props: Set higher priority to c2 than OMX
+- props: Use AOSP default Codec2/OMX ranks
+- props: Move input surface to CCodec
+- props: Disable camera perflock
+- overlay: Switch to AVC 3.1 for screen recording
+- unset BOARD_USERDATAIMAGE_PARTITION_SIZE
+- sepolicy: fix duplicate definitions
+
 20240626
 - Merge June ASB and A14 QPR3
 - Build missing libraries for 14 QPR3
