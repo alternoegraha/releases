@@ -1,3 +1,7 @@
+20240815
+- August 2024 security patch
+- Remove media_codecs_google_c2*
+
 20240728
 - July 2024 ASB
 - props: "Adjust and fix LMKD"
