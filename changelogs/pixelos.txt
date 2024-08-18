@@ -1,3 +1,7 @@
+20240818
+- August 2024 ASB
+- Remove media_codecs_google_c2*
+
 20240731
 - July 2024 ASB
 - props: "Adjust and fix LMKD"
