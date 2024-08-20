@@ -1,3 +1,7 @@
+20240820
+- Change default kernel to Luna (by @Asyanx)
+- Sync upstream changes
+
 20240818
 - August 2024 ASB
 - Remove media_codecs_google_c2*
