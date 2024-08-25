@@ -1,3 +1,6 @@
+20240824
+- Switch to QTI PerfHAL from Moto-SM6225
+
 20240820
 - Change default kernel to Luna (by @Asyanx)
 - Sync upstream changes
