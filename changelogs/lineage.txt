@@ -1,3 +1,6 @@
+20240823
+- Switch to QTI PerfHAL from Moto-SM6225
+
 20240815
 - August 2024 security patch
 - Remove media_codecs_google_c2*
