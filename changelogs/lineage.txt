@@ -1,3 +1,20 @@
+20240908
+- September 2024 ASB (also last A14 build)
+- Revert perf HAL to libperfmgr
+- Drop bootctl package
+- Change default dexpreopt compiler filter to speed-profile
+- Adjust lmk props
+- libinit: enable low RAM for 3GB and 4GB variant
+- Override cgroups.json & task_profiles.json
+- Switch to Luna kernel by @Asyanx
+- overlay: enable split shade QS
+- media: Drop unused media_profiles
+- media: also drop unused media_codec XMLs
+- media: Copy media_codecs_vendor to media_codecs
+- media: Use the right media_codecs on khaje devices
+- media: add "can-swap-width-height" for video codecs
+- media: Enable slow-cpu media_codecs
+
 20240823
 - Switch to QTI PerfHAL from Moto-SM6225
 
