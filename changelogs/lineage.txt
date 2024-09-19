@@ -1,3 +1,11 @@
+20240918
+- Ship with WeatheringWithYou kernel again (now with fixed fingerprint gesture)
+- Revert "fog: init: Add low RAM properties" (causes some apps can't installed thru Play Store, and missing features e.g split view)
+- Revert to stock IMS apk
+- Build xiaomi-telephony-stub (fix IMS apk with bootjars)
+- overlay: Enable VoLTE support for Indonesia carriers.
+- rootdir: remove qti IOP and perfd leftovers
+
 20240908
 - September 2024 ASB (also last A14 build)
 - Revert perf HAL to libperfmgr
