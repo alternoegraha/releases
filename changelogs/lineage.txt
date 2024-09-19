@@ -1,5 +1,7 @@
 20240918
 - Ship with WeatheringWithYou kernel again (now with fixed fingerprint gesture)
+- move camxoverridesettings to device tree
+- configs: camera: Disable logging from camx module (actually reduces CamX logspam, not all CamX logs completely silenced)
 - Revert "fog: init: Add low RAM properties" (causes some apps can't installed thru Play Store, and missing features e.g split view)
 - Revert to stock IMS apk
 - Build xiaomi-telephony-stub (fix IMS apk with bootjars)
