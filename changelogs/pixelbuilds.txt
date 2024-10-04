@@ -1,3 +1,20 @@
+04102024
+- [Kernel] fix fingerprint gesture bug
+- [ROM source] Revert new brightness slider QS and volume bar slider design to previous one (this is considered personal change)
+=====
+- props: Disable camera perflock
+- overlay: Switch to AVC 3.1 for screen recording
+- Drop bootctl package
+- Change default dexpreopt compiler filter to speed-profile
+- props: Tweak lmk props
+- move camxoverridesettings to device tree
+- configs: camera: Disable logging from camx module (actually reduces CamX logspam, not all CamX logs completely silenced)
+- Revert to stock IMS apk
+- Build xiaomi-telephony-stub (fix IMS apk with bootjars)
+- overlay: Enable VoLTE support for Indonesia carriers.
+- rootdir: remove qti IOP and perfd leftovers
+- unset BOARD_USERDATAIMAGE_PARTITION_SIZE
+
 08062024
 - Bring back NotchBarKiller
 - powerhint: reduce launch hint duration to 2000
