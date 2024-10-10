@@ -1,3 +1,11 @@
+20241008
+- media: Drop OMX heic encoder
+- media: media_profiles: Edit profiles xml in accordance with schema
+- media: Drop OMX sw video codecs
+- Remove software OMX blobs
+- media: Import some values of media_profiles_vendor.xml from rhode
+- overlay: Add and increase 5 GHz network signal tolerance
+
 20240918
 - Ship with WeatheringWithYou kernel again (now with fixed fingerprint gesture)
 - move camxoverridesettings to device tree
