@@ -1,3 +1,36 @@
+20241017
+- October ASB
+- Revert to libperfmgr
+- Revert IMS blobs to stock one and patch with xiaomi-telephony-stub bootjars
+- Switch back to my WWY kernel (+ mglru, + fixed fp gesture)
+======
+- Change default dexpreopt compiler filter to speed-profile
+- props: Tweak lmk props
+- Override cgroups.json & task_profiles.json
+- overlay: Enable split shade QS
+- media: Drop unused media_profiles
+- media: Copy media_codecs_vendor to media_codecs
+- media: Use the right media_codecs on khaje devices
+- media: add "can-swap-width-height" for video codecs
+- media: Enable slow-cpu media_codecs
+- move camxoverridesettings to device tree
+- configs: camera: Disable logging from camx module
+- Build xiaomi-telephony-stub
+- overlay: Enable VoLTE support for Indonesia carriers.
+- rootdir: remove qti IOP and perfd leftovers
+- media: Drop OMX heic encoder
+- media: media_profiles: Edit profiles xml in accordance with schema
+- media: Drop OMX sw video codecs
+- Remove software OMX blobs
+- media: Import some values of media_profiles_vendor.xml from rhode
+- overlay: Add and increase 5 GHz network signal tolerance
+- vintf: Declare graphics allocator
+- media: Kill remaining OMX swcodec references in media_codecs_performance
+- media: fix duplicate on media_codecs_vendor_khaje
+- Revert "fog: props: remove skiaglthreaded render engine backend"
+- props: Disable debug.hwui.trace_gpu_resources
+- overlay: Disable QS media player turbulence effect by default
+
 20240824
 - Switch to QTI PerfHAL from Moto-SM6225
 
