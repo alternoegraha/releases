@@ -1,3 +1,10 @@
+20241108
+- October secpatch
+- Switch to Makeine kernel (my fork of sea kernel by @Asyanx) + has mgLRU (multi-gen LRU) for memory management
+- media: Kill remaining OMX swcodec references in media_codecs_performance
+- props: Disable debug.hwui.trace_gpu_resources
+- overlay: rework statusbar padding
+
 20241008
 - media: Drop OMX heic encoder
 - media: media_profiles: Edit profiles xml in accordance with schema
