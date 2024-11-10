@@ -1,0 +1,6 @@
+20241110
+- Build libcrypto_shim.vendor (fixes MLBB black screen issue)
+- Disable new Settings UI by default (still toggle-able through aflags via root adb shell/termux)
+
+20241109
+- Initial build
