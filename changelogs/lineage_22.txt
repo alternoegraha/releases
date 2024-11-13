@@ -1,3 +1,6 @@
+20241111
+- Redo CarrierConfigOverlay
+
 20241110
 - Build libcrypto_shim.vendor (fixes MLBB black screen issue)
 - Disable new Settings UI by default (still toggle-able through aflags via root adb shell/termux)
