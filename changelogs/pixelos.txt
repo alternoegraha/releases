@@ -5,8 +5,9 @@
 - Shim libwvhidl with libcrypto_shim
 - Build libcrypto_shim.vendor (fixes MLBB black screen issue)
 - Disable new Settings UI by default (still toggle-able through aflags via root adb shell/termux)
+- Use clang-r487747c for kernel compilation
 
-20241017
+20241017 (this release is 'pulled' due to faulty default kernel caused by clang compiler not compatible with my kernel)
 - October ASB
 - Revert to libperfmgr
 - Revert IMS blobs to stock one and patch with xiaomi-telephony-stub bootjars
