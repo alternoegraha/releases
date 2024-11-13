@@ -1,3 +1,11 @@
+20241112
+- initial Android 15 build + November ASB
+- switch to Makeine kernel (sea-fog fork)
+- Redo CarrierConfigOverlay
+- Shim libwvhidl with libcrypto_shim
+- Build libcrypto_shim.vendor (fixes MLBB black screen issue)
+- Disable new Settings UI by default (still toggle-able through aflags via root adb shell/termux)
+
 20241017
 - October ASB
 - Revert to libperfmgr
