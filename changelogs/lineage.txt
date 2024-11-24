@@ -1,4 +1,5 @@
 20241124
+- redone CarrierConfigOverlay
 - cleanups and refactor (props and rootdir scripts)
 - props: Move netflix.bsp_rev prop to system
 - rootdir: Change CPUSets
