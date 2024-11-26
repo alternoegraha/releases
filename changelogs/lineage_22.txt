@@ -1,3 +1,13 @@
+20241126
+- cleanups and refactor (props and rootdir scripts)
+- props: Move netflix.bsp_rev prop to system
+- rootdir: Change CPUSets
+- rootdir/fstab: Add entry for mounting sdcard in recovery
+- rootdir/fstab: Set auto for mmcblk0p1
+- Disable kpti
+- Disable kernel MTE
+- nuke cgroup_disable=pressure
+
 20241111
 - Redo CarrierConfigOverlay
 
