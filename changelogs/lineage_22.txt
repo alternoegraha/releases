@@ -7,6 +7,9 @@
 - Disable kpti
 - Disable kernel MTE
 - nuke cgroup_disable=pressure
+- cleanup + kang surfaceflinger props from redfin
+- Revert "fog: overlay: enable split shade QS"
+- sepolicy: Dontaudit untrusted_app to open ashmem_device
 
 20241111
 - Redo CarrierConfigOverlay
