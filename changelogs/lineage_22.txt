@@ -1,3 +1,10 @@
+20241203
+- Include minimal GMS package from MindTheGapps by default (NO NEED TO FLASH GAPPS)
+- Revert Adreno driver to Xiaomi ones
+- Fully switch to protobuf vendorcompat - means prebuilt protobuf blobs from MIUI is no longer required
+- Revert "fog: props: Use AOSP default Codec2/OMX ranks"
+- fog: Build capabilityconfigstore@1.0 vendor variant
+
 20241126
 - cleanups and refactor (props and rootdir scripts)
 - props: Move netflix.bsp_rev prop to system
