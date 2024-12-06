@@ -1,7 +1,7 @@
 20241206
 - Revert Adreno driver to Xiaomi defaults. Users who want latest Adreno driver just use Magisk/KSU Adreno driver module instead.
 - fix OMX hw codec doesn't load due to misconfiguration of media_configs XML
-- Revert "fog: hidl: Remove tuicomm hidl entry" (I am still using blobs from Xiaomi)
+- Revert "fog: hidl: Remove tuicomm hidl entry" (reason: I am still using blobs from Xiaomi, and some CLO blobs still using from QSSI13.0)
 - Import missing QSEECOMD libraries
 - Move sscrpcd to class core
 - Allow gettid call for atfwd
