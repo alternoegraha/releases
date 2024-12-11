@@ -1,3 +1,16 @@
+20241211
+- December 2024 security patch
+- Include minimal GMS package from MindTheGapps by default (NO NEED TO FLASH GAPPS)
+- Revert Adreno driver to Xiaomi ones
+- Fully switch to protobuf vendorcompat - means prebuilt protobuf blobs from MIUI is no longer required
+- Revert "fog: props: Use AOSP default Codec2/OMX ranks"
+- Build capabilityconfigstore@1.0 vendor variant
+- fix OMX hw codec doesn't load due to misconfiguration of media_configs XML
+- Revert "fog: hidl: Remove tuicomm hidl entry" (reason: I am still using blobs from Xiaomi, and some CLO blobs still using from QSSI13.0)
+- Import missing QSEECOMD libraries
+- Move sscrpcd to class core
+- Allow gettid call for atfwd
+
 20241124
 - redone CarrierConfigOverlay
 - cleanups and refactor (props and rootdir scripts)
