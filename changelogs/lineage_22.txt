@@ -1,3 +1,13 @@
+20241222
+- December Security Patch + Android 15 QPR1 (AP4A) build
+- Revert Adreno driver to Xiaomi defaults. Users who want latest Adreno driver just use Magisk/KSU Adreno driver module instead.
+- fix OMX hw codec doesn't load due to misconfiguration of media_configs XML
+- Revert "fog: hidl: Remove tuicomm hidl entry" (reason: I am still using blobs from Xiaomi, and some CLO blobs still using from QSSI13.0)
+- Import missing QSEECOMD libraries
+- Move sscrpcd to class core
+- Allow gettid call for atfwd
+- Switch to AOSP wfd implementation
+
 20241203
 - Include minimal GMS package from MindTheGapps by default (NO NEED TO FLASH GAPPS)
 - Revert Adreno driver to Xiaomi ones
