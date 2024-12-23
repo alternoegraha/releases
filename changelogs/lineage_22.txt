@@ -1,3 +1,6 @@
+20241223:
+- Revert inline GApps for QPR1 right now (seems I have issues that causes clock resetting to 17:00 ?)
+
 20241222
 - December Security Patch + Android 15 QPR1 (AP4A) build
 - Revert Adreno driver to Xiaomi defaults. Users who want latest Adreno driver just use Magisk/KSU Adreno driver module instead.
