@@ -1,3 +1,12 @@
+20241231:
+- Last build for 2024 (Happy new year 2025 ! :D)
+- overlay: Disable QS media player turbulence effect by default
+- rootdir: Set swappiness to a lower value of 30 (also applied on kernel)
+- Disable FRP
+- overlay: tone down vibration patterns
+- props: Disable Async MTE on System Server
+- overlay: statusbar padding adjustments
+
 20241223:
 - Revert inline GApps for QPR1 right now (seems I have issues that causes clock resetting to 17:00 ?)
 
