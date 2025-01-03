@@ -1,0 +1,4 @@
+20250103:
+- Sync to QPR1 sources + December 2024 security patch
+- first build with source built DTBO
+- same changelogs as Lineage 22.1 20241231
