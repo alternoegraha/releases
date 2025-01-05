@@ -1,3 +1,9 @@
+20250104:
+- Back to Inline GApps build
+- use source built DTBO images now
+- Disable protected Wi-Fi Display buffers on AOSP WFD
+- props: Disable RescueParty
+
 20241231:
 - Last build for 2024 (Happy new year 2025 ! :D)
 - overlay: Disable QS media player turbulence effect by default
