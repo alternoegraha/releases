@@ -1,3 +1,7 @@
+20250114:
+- January 2025 secpatch ¯\_(ツ)_/¯
+- minor prop changes
+
 20250104:
 - Back to Inline GApps build
 - use source built DTBO images now
