@@ -1,3 +1,13 @@
+20250121
+- January 2025 security patch
+- switch to new fog-oss kernel by default
+- rootdir: Set swappiness to a lower value of 30
+- overlay: tone down vibration patterns
+- props: Apply dex2oat optimizations
+- props: drop dalvik.vm.systemuicompilerfilter
+- Revert "fog: props: Revert audio offload buffer size to 32kb"
+- Drop memtrack.bengal + build vendor.qti.hardware.display.mapperextensions@1.1.vendor and vendor.qti.hardware.memtrack AIDL
+
 20241211
 - December 2024 security patch
 - Include minimal GMS package from MindTheGapps by default (NO NEED TO FLASH GAPPS)
