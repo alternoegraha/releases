@@ -1,5 +1,4 @@
 20250121
-- January 2025 security patch
 - switch to new fog-oss kernel by default
 - rootdir: Set swappiness to a lower value of 30
 - overlay: tone down vibration patterns
