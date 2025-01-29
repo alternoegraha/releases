@@ -1,5 +1,6 @@
 20250128:
 - Switch to touchpanel dt2w node (Kernel also updated with newly adapted touchscreen driver to use touchpanel dt2w node. Additionaly, dt2w now works on devices with focaltech fts_ts display model)
+- (New) Add touchscreen support in LineageOS recovery
 - Remove OMX (hw) audio codecs
 - Switch to source built com.fingerprints.extension
 - Switch to source built qcom usb scripts
