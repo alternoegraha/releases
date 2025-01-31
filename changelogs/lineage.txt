@@ -1,3 +1,15 @@
+20250131
+- January 2025 ASB
+- Switch to new vendor tree with elfchecks and etc
+- Switch to Makeine (development reset version) 4.19.328 kernel
+- Switch to touchpanel dt2w node
+- Touchscreen now supported on LineageOS Recovery
+- Switch to AOSP WFD
+- Update lmkd properties to improve responsiveness
+- Add touch improvements props
+- sepolicy: Allow vendor_init write to proc_sched
+- powerhint|init.qcom.power: drop schedtune and bring uclamp boosting from angeloxzs's spes device tree
+
 20250121
 - switch to new fog-oss kernel by default
 - rootdir: Set swappiness to a lower value of 30
