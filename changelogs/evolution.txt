@@ -1,3 +1,18 @@
+20250202:
+- January 2025 security patch
+- drop LMOFreeform because it's doesnt work on 720p display
+- Switch to touchpanel dt2w node (Kernel also updated with newly adapted touchscreen driver to use touchpanel dt2w node. Additionaly, dt2w now works on devices with focaltech fts_ts display model)
+- (New) Add touchscreen support in LineageOS recovery
+- Remove OMX (hw) audio codecs
+- Switch to source built com.fingerprints.extension
+- Switch to source built qcom usb scripts
+- Update lmkd properties to improve responsiveness
+- props: Add touch improvements props
+- sepolicy: Allow vendor_init write to proc_sched
+- powerhint|init.qcom.power: drop schedtune and bring uclamp boosting from angeloxzs's spes device tree
+- powerhint: Rework GPU boosting
+- powerhint: Drop unnecessary CPU boosts
+
 20250103:
 - Sync to QPR1 sources + December 2024 security patch
 - first build with source built DTBO
