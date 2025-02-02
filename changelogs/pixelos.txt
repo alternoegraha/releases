@@ -1,3 +1,15 @@
+20250202
+- Switch to touchpanel dt2w node (Kernel also updated with newly adapted touchscreen driver to use touchpanel dt2w node. Additionaly, dt2w now works on devices with focaltech fts_ts display model)
+- (New) Add touchscreen support in PixelOS default recovery
+- Remove OMX (hw) audio codecs
+- Switch to source built com.fingerprints.extension
+- Update lmkd properties to improve responsiveness
+- props: Add touch improvements props
+- sepolicy: Allow vendor_init write to proc_sched
+- powerhint|init.qcom.power: drop schedtune and bring uclamp boosting from angeloxzs's spes device tree
+- powerhint: Rework GPU boosting
+- powerhint: Drop unnecessary CPU boost
+
 20241206
 - Revert Adreno driver to Xiaomi defaults. Users who want latest Adreno driver just use Magisk/KSU Adreno driver module instead.
 - fix OMX hw codec doesn't load due to misconfiguration of media_configs XML
