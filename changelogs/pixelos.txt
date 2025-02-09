@@ -1,3 +1,17 @@
+20250209
+- IMPORTANT: if dt2w still has random shutdown issue pls tell I'm so tired
+------------------------
+- February 2025 secpatch
+- rootdir: Use foreground uclamp for gralloc and composer
+- rootdir: Drop init.qcom.post_boot
+- rootdir: drop some zram configure, including compression algorithm setup. now it's done by kernel side
+- sepolicy: update vendor_init.te
+- Disable FRP (again, after tree rebase I forgor to add this)
+- Revert "fog: props: Add touch improvements props" (reason: sepolicy denials)
+- fstab: Change zram size to 50% to prevent thrashing
+- props: Refined early SF phase offsets
+- overlay: disable find my device
+
 20250202
 - Switch to touchpanel dt2w node (Kernel also updated with newly adapted touchscreen driver to use touchpanel dt2w node. Additionaly, dt2w now works on devices with focaltech fts_ts display model)
 - (New) Add touchscreen support in PixelOS default recovery
