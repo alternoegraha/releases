@@ -1,3 +1,8 @@
+20250218
+- Switch to prebuilt OSS kernel
+- Drop OMX codec completely (could be a temp until an issue with OMX hw codec is resolved)
+- Enable Project ID Quotas (also drop SDCardFS in kernel. THIS IS A BREAKING CHANGE, that you'll need to clean flash if you coming from previous builds)
+
 20250209
 - IMPORTANT: if dt2w still has random shutdown issue pls tell I'm so tired
 ------------------------
