@@ -1,3 +1,22 @@
+20250220:
+- Feb 25 ASB
+- Ship with GAPPS from AOSPA/ThankYouMario
+- Enable Project ID Quotas (also drop SDCardFS in kernel. THIS IS A BREAKING CHANGE, that you'll need to clean flash if you coming from previous builds)
+- Drop OMX codec completely (could be a temp until an issue with OMX hw codec is resolved)
+- Revert "props: Add touch improvements props"
+===============================================
+- sepolicy: Allow vendor_init write to proc_sched
+- powerhint|init.qcom.power: drop schedtune and bring uclamp boosting from angeloxzs's spes device tree
+- powerhint: Rework GPU boosting
+- powerhint: Drop unnecessary CPU boost
+- rootdir: Use foreground uclamp for gralloc and composer
+- rootdir: Drop init.qcom.post_boot
+- rootdir: drop some zram configure, including compression algorithm setup. now it's done by kernel side
+- sepolicy: update vendor_init.te
+- Disable FRP (again, after tree rebase I forgor to add this)
+- fstab: Change zram size to 50% to prevent thrashing
+- props: Refined early SF phase offsets
+
 20250128:
 - Switch to touchpanel dt2w node (Kernel also updated with newly adapted touchscreen driver to use touchpanel dt2w node. Additionaly, dt2w now works on devices with focaltech fts_ts display model)
 - (New) Add touchscreen support in LineageOS recovery
