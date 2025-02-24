@@ -1,3 +1,8 @@
+20250224
+- Update prebuilt kernel: Now rebased to Vauxite kernel by CHRISL7 (with adaptation by LinAndr/SourceLab), also MGLRU was dropped in favor of bunch of mm commits from knyprjkt (angeloxzs) spes kernel, combined with Simple LMK
+- Enable FUSE Passthrough
+- Disable config_avoidGfxAccel
+
 20250218
 - Switch to prebuilt OSS kernel
 - Drop OMX codec completely (could be a temp until an issue with OMX hw codec is resolved)
