@@ -1,3 +1,10 @@
+20250301
+- rootdir: Remove max ZRAM compression streams setting
+- zram: use 75% zram size
+- Revert "fog: powerhint: reduce launch hint duration to 2000"
+- powerhint: Relax CPUBW boosts
+- props: Add RMNet data properties
+
 20250225
 - update kernel prebuilt
 - powerhint tweaks + init.qcom.power.rc update
