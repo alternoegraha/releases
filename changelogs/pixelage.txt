@@ -1,0 +1,149 @@
+20250302
+- wifi: Enable WPA3/SAE
+
+20250301
+- rootdir: Remove max ZRAM compression streams setting
+- zram: use 75% zram size
+- Revert "fog: powerhint: reduce launch hint duration to 2000"
+- powerhint: Relax CPUBW boosts
+- props: Add RMNet data properties
+
+20250225
+- update kernel prebuilt
+- powerhint tweaks + init.qcom.power.rc update
+
+20250224
+- Update prebuilt kernel: Now rebased to Vauxite kernel by CHRISL7 (with adaptation by LinAndr/SourceLab), also MGLRU was dropped in favor of mm commits from knyprjkt (angeloxzs) spes kernel, combined with Simple LMK
+- Enable FUSE Passthrough
+- Disable config_avoidGfxAccel
+
+20250218
+- Switch to prebuilt OSS kernel
+- Drop OMX codec completely (could be a temp until an issue with OMX hw codec is resolved)
+- Enable Project ID Quotas (also drop SDCardFS in kernel. THIS IS A BREAKING CHANGE, that you'll need to clean flash if you coming from previous builds)
+
+20250209
+- IMPORTANT: if dt2w still has random shutdown issue pls tell I'm so tired
+------------------------
+- February 2025 secpatch
+- rootdir: Use foreground uclamp for gralloc and composer
+- rootdir: Drop init.qcom.post_boot
+- rootdir: drop some zram configure, including compression algorithm setup. now it's done by kernel side
+- sepolicy: update vendor_init.te
+- Disable FRP (again, after tree rebase I forgor to add this)
+- Revert "fog: props: Add touch improvements props" (reason: sepolicy denials)
+- fstab: Change zram size to 50% to prevent thrashing
+- props: Refined early SF phase offsets
+- overlay: disable find my device
+
+20250202
+- Switch to touchpanel dt2w node (Kernel also updated with newly adapted touchscreen driver to use touchpanel dt2w node. Additionaly, dt2w now works on devices with focaltech fts_ts display model)
+- (New) Add touchscreen support in PixelOS default recovery
+- Remove OMX (hw) audio codecs
+- Switch to source built com.fingerprints.extension
+- Update lmkd properties to improve responsiveness
+- props: Add touch improvements props
+- sepolicy: Allow vendor_init write to proc_sched
+- powerhint|init.qcom.power: drop schedtune and bring uclamp boosting from angeloxzs's spes device tree
+- powerhint: Rework GPU boosting
+- powerhint: Drop unnecessary CPU boost
+
+20250103
+- Initial build of ProjectPixelage fog
+
+20241206
+- Revert Adreno driver to Xiaomi defaults. Users who want latest Adreno driver just use Magisk/KSU Adreno driver module instead.
+- fix OMX hw codec doesn't load due to misconfiguration of media_configs XML
+- Revert "fog: hidl: Remove tuicomm hidl entry" (reason: I am still using blobs from Xiaomi, and some CLO blobs still using from QSSI13.0)
+- Import missing QSEECOMD libraries
+- Move sscrpcd to class core
+- Allow gettid call for atfwd
+
+20241112
+- initial Android 15 build + November ASB
+- switch to Makeine kernel (sea-fog fork)
+- Redo CarrierConfigOverlay
+- Shim libwvhidl with libcrypto_shim
+- Build libcrypto_shim.vendor (fixes MLBB black screen issue)
+- Disable new Settings UI by default (still toggle-able through aflags via root adb shell/termux)
+- Use clang-r487747c for kernel compilation
+
+20241017 (this release is 'pulled' due to faulty default kernel caused by clang compiler not compatible with my kernel)
+- October ASB
+- Revert to libperfmgr
+- Revert IMS blobs to stock one and patch with xiaomi-telephony-stub bootjars
+- Switch back to my WWY kernel (+ mglru, + fixed fp gesture)
+======
+- Change default dexpreopt compiler filter to speed-profile
+- props: Tweak lmk props
+- Override cgroups.json & task_profiles.json
+- overlay: Enable split shade QS
+- media: Drop unused media_profiles
+- media: Copy media_codecs_vendor to media_codecs
+- media: Use the right media_codecs on khaje devices
+- media: add "can-swap-width-height" for video codecs
+- media: Enable slow-cpu media_codecs
+- move camxoverridesettings to device tree
+- configs: camera: Disable logging from camx module
+- Build xiaomi-telephony-stub
+- overlay: Enable VoLTE support for Indonesia carriers.
+- rootdir: remove qti IOP and perfd leftovers
+- media: Drop OMX heic encoder
+- media: media_profiles: Edit profiles xml in accordance with schema
+- media: Drop OMX sw video codecs
+- Remove software OMX blobs
+- media: Import some values of media_profiles_vendor.xml from rhode
+- overlay: Add and increase 5 GHz network signal tolerance
+- vintf: Declare graphics allocator
+- media: Kill remaining OMX swcodec references in media_codecs_performance
+- media: fix duplicate on media_codecs_vendor_khaje
+- Revert "fog: props: remove skiaglthreaded render engine backend"
+- props: Disable debug.hwui.trace_gpu_resources
+- overlay: Disable QS media player turbulence effect by default
+
+20240824
+- Switch to QTI PerfHAL from Moto-SM6225
+
+20240820
+- Change default kernel to Luna (by @Asyanx)
+- Sync upstream changes
+
+20240818
+- August 2024 ASB
+- Remove media_codecs_google_c2*
+
+20240731
+- July 2024 ASB
+- props: "Adjust and fix LMKD"
+- Remove software omx codec references
+- props: Set higher priority to c2 than OMX
+- props: Use AOSP default Codec2/OMX ranks
+- props: Move input surface to CCodec
+- props: Disable camera perflock
+- overlay: Switch to AVC 3.1 for screen recording
+- unset BOARD_USERDATAIMAGE_PARTITION_SIZE
+- sepolicy: fix duplicate definitions
+
+20240628
+- June 2024 ASB and A14 QPR3 release
+- Build missing libraries for 14 QPR3
+- Build missing audio VNDK libraries
+- props: "Adjust and fix LMKD"
+
+20240612
+- Build CertifiedPropsOverlay (fixes PI's Device Integrity)
+
+20240610
+- Signed build
+- Update Adreno drivers to v757
+- Revert configs/media changes (also fixes 1080p60 youtube playback lagging)
+- props: Use media_profiles_vendor. for media.settings.xml, again
+- props: move LMKD props to system.prop, again
+- props: Move media codec properties to system.prop
+- Bring back NotchBarKiller
+- powerhint: reduce launch hint duration to 2000
+- Reapply "fog: configs: powerhint: setup GPU boosting"
+- Sync to latest PixelOS sources
+- any misc. changes
+
+Past changelog: https://telegra.ph/PixelOS-fog-Unofficial---20240220-changelog-02-20
