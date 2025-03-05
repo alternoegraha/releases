@@ -1,3 +1,26 @@
+20250305
+- OMX hwcodec now working again, video playback issue is resolved
+- update kernel prebuilt
+- Drop NotchBarKiller overlay
+- debloat GAPPS, remove:
+  - Google Photos (since Editor feature needs prop/device spoofing, cherry-picking PIHooks to fw/b may takes time and needs to dealing with conflicts)
+  - Google Drive
+  - Google Maps
+  - Google Files
+  - YouTube (install revanced or newpipe instead)
+===============================================
+- wifi: Enable WPA3/SAE
+- rootdir: Remove max ZRAM compression streams setting
+- zram: use 75% zram size
+- Revert "fog: powerhint: reduce launch hint duration to 2000"
+- powerhint: Relax CPUBW boosts
+- props: Add RMNet data properties
+- powerhint tweaks + init.qcom.power.rc update
+- Update prebuilt kernel: Now rebased to Vauxite kernel by CHRISL7 (with adaptation by LinAndr/SourceLab), also MGLRU was dropped in favor of mm commits from knyprjkt (angeloxzs) spes kernel, combined with Simple LMK
+- Enable FUSE Passthrough
+- Disable config_avoidGfxAccel
+- Revert "fog: sepolicy: Dontaudit untrusted_app to open ashmem_device"
+
 20250220:
 - Feb 25 ASB
 - Ship with GAPPS from AOSPA/ThankYouMario
