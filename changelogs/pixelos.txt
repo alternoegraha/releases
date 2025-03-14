@@ -1,3 +1,15 @@
+20250311
+- wifi: Enable WPA3/SAE
+- Remove NotchBarKiller overlay
+- Revert "fog: sepolicy: Dontaudit untrusted_app to open ashmem_device"
+- Bring back OMX hwcodec + fix media thumbnails
+- props: Enable deep buffer for media by default
+- Add soundtrigger configs + Build opensource soundtrigger HAL
+- props: Disable QCRIL power saving
+- props: Add props to improve battery backup
+- wifi: Enable Optimized Power Management
+- overlay: Update rounded corner drawable and dimens
+
 20250301
 - rootdir: Remove max ZRAM compression streams setting
 - zram: use 75% zram size
