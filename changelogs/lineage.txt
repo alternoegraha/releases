@@ -1,3 +1,29 @@
+20250315
+- March ASB
+- Switch again to MTG for GAPPS
+- Switch to prebuilt OSS kernel
+===========
+- Enable Project ID Quotas
+- Enable FUSE Passthrough
+- Disable config_avoidGfxAccel
+- powerhint tweaks + init.qcom.power.rc update
+- wifi: Enable WPA3/SAE
+- Remove NotchBarKiller overlay
+- Revert "fog: sepolicy: Dontaudit untrusted_app to open ashmem_device"
+- props: Enable deep buffer for media by default
+- Add soundtrigger configs + Build opensource soundtrigger HAL
+- props: Disable QCRIL power saving
+- props: Add props to improve battery backup
+- wifi: Enable Optimized Power Management
+- overlay: Update rounded corner drawable and dimens
+
+20250301
+- rootdir: Remove max ZRAM compression streams setting
+- zram: use 75% zram size
+- Revert "fog: powerhint: reduce launch hint duration to 2000"
+- powerhint: Relax CPUBW boosts
+- props: Add RMNet data properties
+
 20250213
 - Use GMS vendor from halcyon project (thx @herobuxx)
 - rootdir: Use foreground uclamp for gralloc and composer
