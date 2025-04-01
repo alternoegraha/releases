@@ -1,3 +1,7 @@
+20250401
+- QPR2 update
+- GApps reverted to MindTheGapps and return of Vanilla build.
+
 20250305
 - OMX hwcodec now working again, video playback issue is resolved
 - update kernel prebuilt
