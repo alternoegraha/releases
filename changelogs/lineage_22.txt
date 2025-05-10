@@ -1,9 +1,12 @@
 20250510
+- May 2025 ASB
+- Switch to AOSP offline charging animation (fixes offline charging issue in V_QPR2)
+- Reduce default DPI size to 280
+- back to Vanilla build
+===============================================
 - powerhint: Restrict max CPU freq to critical hints
 - init: Align cpusets with crosshatch
 - Revert "fog: rootdir: Start bootanimation on post-fs"
-- Switch to AOSP offline charging animation (fixes offline charging issue in V_QPR2)
-- Reduce default DPI size to 280
 - Revert "fog: overlay: Add config_wallpaperMaxScale"
 - overlay: Enable split shade QS on landscape mode
 
