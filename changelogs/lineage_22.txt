@@ -1,3 +1,16 @@
+20250523
+- Bring back GApps
+- Introduce custom OTA updates support
+- drop aremeabi (legacy) support
+===============================================
+- props: Disable LMKD log stats
+- props: Drop ro.surface_flinger.force_hwc_copy_for_virtual_displays
+- powerhint: Reduce aggressive TAUClampBoost at launch
+- Build QTI USB Gadget HAL
+- Build usb_compositions.conf
+- Switch to NCM USB tethering
+- Setup DeviceAsWebcam
+
 20250510
 - May 2025 ASB
 - Switch to AOSP offline charging animation (fixes offline charging issue in V_QPR2)
