@@ -1,0 +1,14 @@
+20250529
+- First build since 2024
+- Based on LOS 18.1 "eLTS" by LOS-MicroG-Hardened project (thx backslashxx for pointing and enlighten me out)
+- Signed build
+- Default DPI is now set to 280
+- Include GApps from MindTheGapps by default
+==========================
+- use new prebuilt OSS kernel
+- Switch to touchpanel dt2w
+- Update rounded corner values
+- Override cgroups.json and task_profiles.json
+- Drop Schedtune + adapt to Uclamp
+- Add NoCutoutOverlay to hide notch (tm)
+- Fix remaining sepolicy wakeup denials
