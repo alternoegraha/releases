@@ -1,3 +1,20 @@
+20250630
+- Updated prebuilt kernel with latest changes
+- Trebuchet: Removed "Circle to Search" for obvious reasons, because:
+  1) Does not work with 3 button navigation
+  2) Lack of haptic feedback when triggers C2S
+  3) Requires disabling "Default digital assistant app", meaning it can't be used with Gemini/Google Assistant altogether
+- frameworks/base: Add GamesPropsUtils, to unlock FPS and graphic quality in some games.
+===============================================
+- sepolicy: major cleanup, removes some leftovers from spes device tree and unused SEPolicies, untrusted_app sepolicies also removed since allowing broad permissions is discouraged
+- Revert "fog: props: Explicitly disable ADPF"
+- init: Drop discard_max_bytes writing
+- powerhint: update powerhint
+- powerhint: Don't restrict CPU idle levels
+- powerhint: Boost GPU when EXPENSIVE_RENDERING hints are parsed
+- suppress some (more) logcat spam
+- init: Delete dhcpcd init entries
+
 20250622
 - June ASB
 - Updated prebuilt kernel with latest changes
