@@ -1,3 +1,10 @@
+20250707
+- Updated prebuilt kernel with latest changes
+===============================================
+- sepolicy: resolve fingerprint HAL denials (redo after cleanup)
+- sepolicy: Label ro.ril.oem.wifimac property (re-pick after cleanup)
+- props: Enable client composition cache
+
 20250630
 - Updated prebuilt kernel with latest changes
 - Trebuchet: Removed "Circle to Search" for obvious reasons, because:
