@@ -1,3 +1,12 @@
+20250730
+- Updated prebuilt kernel with latest changes
+- Switch back to userdebug and original MTG (if you are from 24/7 build)
+- VolumeDialog: Change bg tint for inactive rows
+===============================================
+- Enable UFFD GC
+- bump ZRAM size by 10%
+- Drop legacy ANT remnants
+
 20250707
 - Updated prebuilt kernel with latest changes
 ===============================================
