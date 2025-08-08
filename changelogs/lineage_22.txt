@@ -1,3 +1,42 @@
+20250808
+- Switch back to AOSPA GMS
+- Now with working (again) Circle to Search (now both Navigation modes! - Gesture and 3-button nav)
+===============================================
+- fog: overlay: Sync pinner overlay with gs201
+- fog: overlay: Set default pin amount for home app
+- fog: overlay: Add webview pinning
+===============================================
+* frameworks/base:
+  - Revert "Flags: Enable color fidelity"
+  - base: Stop building NotoSerif font
+  - oom: Enable proactive kills only on modern kernels
+* frameworks/native:
+  - Optimize the priority of ServiceManager(1/2).
+  - Disable schedstats
+  - Fix the issue of screen flashing when adjusting ambient light when playing HDR video.
+  - Optimize transformhint updates to aviod buffer reallocation in BBQ.
+  - nativedisplay: fix the flicker issue in streaming video
+  - SurfaceFlinger: Set debug.sf.frame_rate_multiple_threshold to 60 by default
+  - Quick path to query window width and height
+  - libbinder: Suppress log spam when unlinking death recipients
+  - Native: Camera: Import Release Slot Xiaomi Changes
+  - Add prefix and suffix to restrict iteration to optimize search efficiency
+  - SF: Fix opportunistic idling and make it more aggressive
+  - SF: Scheduler: set an expiration for heuristic layer's high refresh rate usages
+  - SF: Scheduler: touch boost whenever possible
+  - SF: Scheduler: opportunistically enter idle after touch
+  - SF: Scheduler: relax measurements for heuristic mode
+  - SF: Scheduler: remove presentTime check in calculateAverageFrameTime()
+  - SF: Scheduler: maintain current refresh rate if no layers are detected
+  - SF: Don't enable expensive rendering for unknown dataspace
+  - fix potential leakage issues
+  - Native: ProducerListener: Import ON_BUFFER_DETACHED Changes
+* system/sepolicy:
+  - Optimize the priority of ServiceManager(2/2)
+* vendor/lineage:
+  - config: Downscale task snapshots to 80%
+  - Reduce high res task snapshot scale to Pre-legacy R scale
+
 20250730
 - Updated prebuilt kernel with latest changes
 - Switch back to userdebug and original MTG (if you are from 24/7 build)
