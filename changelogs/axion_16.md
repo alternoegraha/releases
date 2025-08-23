@@ -1,3 +1,11 @@
+# 20250823
+- Updated prebuilt kernel
+- Sync to latest AxionAOSP sources
+### Personal changes:
+- Changed default font to Roboto (Rookery font still available as option on Wallpapers & Style -> Fonts
+- Dropped SFProDisplay and Fifa2018 font
+- Added Inter (version 4.1) font
+
 # 20250820
 - Include Camera app from GrapheneOS
 - Sync to latest AxionAOSP sources
