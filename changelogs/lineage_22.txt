@@ -1,3 +1,11 @@
+20250827
+- Switch again to MTG GApps (how many times I switch default GMS package?)
+- Updated prebuilt kernel to Nurture-R3 (25 Aug build)
+- + source changes and sync with latest upstream
+==============================================
+- fog: switch to common QCOM AIDL bootctrl HAL
+  - fog: Don't use BSG framework for gpt-utils
+
 20250808
 - Switch back to AOSPA GMS
 - Now with working (again) Circle to Search (now both Navigation modes! - Gesture and 3-button nav)
