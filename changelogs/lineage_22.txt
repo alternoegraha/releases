@@ -1,5 +1,6 @@
 20250827
 - Switch again to MTG GApps (how many times I switch default GMS package?)
+  As a result, OTA is temporarily not pushed/paused, OTA rollout will resumed if new builds available
 - Updated prebuilt kernel to Nurture-R3 (25 Aug build)
 - + source changes and sync with latest upstream
 ==============================================
