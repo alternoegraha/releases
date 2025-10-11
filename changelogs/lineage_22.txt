@@ -1,3 +1,10 @@
+20251011
+- Enable forced themed icons (AOSP flag)
+- default kernel now has built in KernelSU + bpf 5.10 backports
+==============================================
+- Revert "fog: props: Move input surface to CCodec" (causes screen record (and possibly video recording) lagging due to use of c2 swcodec as input source instead of OMX hwcodec)
+- fog: props: Make SurfaceFlinger latch all buffers unsignaled
+
 20250827
 - Switch again to MTG GApps (how many times I switch default GMS package?)
   As a result, OTA is temporarily not pushed/paused, OTA rollout will resumed if new builds available
