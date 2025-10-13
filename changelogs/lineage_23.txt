@@ -1,2 +1,6 @@
+20251013
+- Switch to user build (+ fixed recovery)
+- enable new QS (partially, I don't bring full M3E experience)
+
 20251012
 - Initial build
