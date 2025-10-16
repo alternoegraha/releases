@@ -1,3 +1,24 @@
+20251016
+- vendor/lineage: Revert new QS
+- vendor/lineage: vendor: Remove useless addon.d file
+- vendor/lineage: overlay: Disable dreams feature
+- Settings: Move blur toggle to Display options.
+- Settings: Expand abbreviation in average memory usage string
+- frameworks/base: screenrecord: Set entire screenrecord as the default option
+- frameworks/base: SystemUI: screenshot: Hide action chips text labels
+- frameworks/base: s2ss: Remove property usage
+- frameworks/base: libhwui: remove deprecated perf flags
+- frameworks/base: libhwui: enable O3 when compiling for perf
+- frameworks/base: libhwui: compile for performance
+- frameworks/base: hwui: Compile without no-omit-frame-pointer
+- frameworks/base: Trace: Disable debug tracing on production builds
+- frameworks/base: fwb: silence handwriting error spam
+- frameworks/base: LocalImageResolver: Stop the spam
+- frameworks/base: BluetoothPowerStatsCollector: Handle onBluetoothActivityEnergyInfoError gracefully
+- frameworks/base: fwb: kill annoying appopservice log spam
+- frameworks/base: Silence some logspam
+- frameworks/base: SettingsLib: Don't show system overlays on apps list
+
 20251013
 - Switch to user build (+ fixed recovery)
 - enable new QS (partially, I don't bring full M3E experience)
