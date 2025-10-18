@@ -1,3 +1,12 @@
+# 20251017
+- Switch default kernel to Nurture-R4 with KernelSU and bpf 5.10 backports
+- Switch to `user` build, with fixed AxionAOSP Recovery to make it actually usable with it
+- dropped GrapheneOS Camera
+- include Aperture Camera by default
+- Sync to latest AxionAOSP sources
+- Revert "fog: props: Move input surface to CCodec" (causes screen record (and possibly video recording) lagging due to use of c2 swcodec as input source instead of OMX hwcodec)
+- fog: props: Make SurfaceFlinger latch all buffers unsignaled
+
 # 20250823
 - Updated prebuilt kernel
 - Sync to latest AxionAOSP sources
