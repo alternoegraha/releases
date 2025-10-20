@@ -1,3 +1,6 @@
+20251020
+- some other improvements ... (✿◡‿◡)
+
 20251018
 - Switch to Vanadium Browser and WebView by default
 
