@@ -1,5 +1,5 @@
 20251020
-- some other improvements ... (✿◡‿◡)
+- some other improvements ... | "Zero new features" (✿◡‿◡)
 
 20251018
 - Switch to Vanadium Browser and WebView by default
