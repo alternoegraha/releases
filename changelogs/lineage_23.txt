@@ -1,3 +1,9 @@
+20251110
+- Updated prebuilt kernel
+- Sync source changes
+- logging: Hide procfs related audit messages from appdomain
+- Bump "security" patch to November 2025
+
 20251029
 - Update prebuilt kernel
 - Settings: Hide unsupported battery information
