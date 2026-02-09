@@ -1,7 +1,7 @@
 20260209
 - Hello, QPR2.
 - Now switched to non-KSU kernel by default
-- [Personal build change] Added swipe to screenshot and new RE Smartspace
+- [Personal build change] Added swipe to screenshot and new RE Smartspace on lockscreen (only cosmetic change since AOSP keyguard slice looks dated, imo)
 - Update MIUI blobs to 14.0.10.0.TGEEUXM
 - Re-did statusbar padding and dimens to better fit with A16 QPR1+ changes
 - overlay: Disable NearbyMessagingService
