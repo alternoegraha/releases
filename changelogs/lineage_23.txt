@@ -1,3 +1,17 @@
+20260209
+- Hello, QPR2.
+- Now switched to non-KSU kernel by default
+- [Personal build change] Added swipe to screenshot and new RE Smartspace
+- Update MIUI blobs to 14.0.10.0.TGEEUXM
+- Re-did statusbar padding and dimens to better fit with A16 QPR1+ changes
+- overlay: Disable NearbyMessagingService
+- overlay: Disable DiscoveryService
+- overlay: Disable high performance transitions
+- overlay: Fix lock icon being too small in lock screen
+- init: Fine-tune foreground cpuset
+- [Temp] Switch to AOSP software Codec2 encoder for fix video and screen record issue
++ misc. changes (probably)
+
 20251110
 - Updated prebuilt kernel
 - Sync source changes
