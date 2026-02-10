@@ -1,3 +1,7 @@
+20260210
+- dropped lockscreen Smartspace. because most of features (like Weather info) needs ASI (Android System Intelligence) to work (and I shipped with minimal GApps package so why)
+- Patch libdpps.so to depend on libtinyxml2-v34.so (FIXES HWCODEC ENCODER ISSUE ON 16 QPR2)
+
 20260209
 - Hello, QPR2.
 - Now switched to non-KSU kernel by default
