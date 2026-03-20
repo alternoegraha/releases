@@ -1,5 +1,6 @@
 20260320
 - March ASB
+- Drop Vanadium browser and WebView, now switched back to LineageOS' Chromium WebView and Jelly browser by default
 - Revert default font to Roboto (from GSF due to upstream change) + fix for M3E
 - Add cloned apps support
 - Updated kernel to 4.19.325-cip129-st13
