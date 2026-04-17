@@ -1,3 +1,9 @@
+20260416/20260417
+- April ASB + sync upstream LineageOS changes
+- switch default kernel to Motregen R2 (non KSU build)
+- Switch to GoogleSansFlex as default font
+- (Personal change) update auto brightness button in QS
+
 20260320
 - March ASB
 - Drop Vanadium browser and WebView, now switched back to LineageOS' Chromium WebView and Jelly browser by default
