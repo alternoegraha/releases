@@ -1,3 +1,10 @@
+20260505
+- May ASB + sync upstream LineageOS changes
+- (personal change) update Auto Brightness button icons to rounded style
+- disable OMX avc secure decoder (hopefully fixes streaming apps issue e.g Netflix/Disney+, but need further tests)
+- Skip per process GPU memory usage trace if disabled in kernel (fix random (soft) reboot issue. more info https://github.com/LOSModified/android_system_memory_libmeminfo/commit/b63dee0cb17d26582cf2ea5970277178ba71c3f4)
+- Updated kernel to 4.19.325-cip131-st15
+
 20260416/20260417
 - April ASB + sync upstream LineageOS changes
 - switch default kernel to Motregen R2 (non KSU build)
