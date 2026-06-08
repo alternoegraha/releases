@@ -1,3 +1,8 @@
+20260608
+- June ASB + sync upstream LineageOS changes
+- Vanilla builds now prioritized first in this update. GMS build may follow later
+- Updated prebuilt kernel
+
 20260505
 - May ASB + sync upstream LineageOS changes
 - (personal change) update Auto Brightness button icons to rounded style
