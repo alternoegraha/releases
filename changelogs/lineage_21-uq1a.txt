@@ -1,2 +1,13 @@
+# 20260620
+- fix default recovery can't install AK3 (AnyKernel3) zips
+- Use smaller statusbar height
+- fix some (but not all) sepolicy denials
+
+# 20260613
+- Fixed installation fails due to sepolicy in OTA updater (no OTA until all users migrated to this new build)
+- merged June ASB backports
+- Fix persistent USB notification issue
+- + misc. things
+
 # 20260611
 - Initial build.
