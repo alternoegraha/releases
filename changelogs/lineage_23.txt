@@ -1,3 +1,12 @@
+20260722
+- July ASB (literally nothing) + sync upstream LOS changes
+- updated prebuilt kernel w/fixed CVE-2026-43499 
+- drop lmkd props, we use AOSP defaults now (but default kernel still uses simple_lmk)
+- overlay: drop Doze related configs
+- switch to QTI Health AIDL service
+- fix health AIDL sepolicy issue (fixes offline charging)
+- set FCM level to v7
+
 20260608
 - June ASB + sync upstream LineageOS changes
 - Vanilla builds now prioritized first in this update. GMS build may follow later
