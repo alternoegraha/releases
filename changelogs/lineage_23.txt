@@ -1,3 +1,16 @@
+20260823
+- re-enable DT2W for ft8006s_spi (kernel side)
+- Updated kernel to 4.19.325-cip135-st19
+- sepolicy: allow charger_vendor to read vendor_sysfs_usb_supply
+- audio: Remove AUDIO_FEATURE_ENABLED_PROXY_DEVICE
+- audio: remove direct flag for VOIP RX
+- overlay: Remove deprecated config_mobile_tcp_buffers/networkAttributes
+- overlay: Remove obsolete config_keyboardTapVibePattern
+- overlay: Remove config_cellBroadcastAppLinks
+- sepolicy: Fix media to read chip ID
+- init: Move WiFi supplicant service definition to dedicated RC
+- props: switch blur algo to kawase2_fix_aliasing
+
 20260722
 - July ASB (literally nothing) + sync upstream LOS changes
 - updated prebuilt kernel w/fixed CVE-2026-43499 
