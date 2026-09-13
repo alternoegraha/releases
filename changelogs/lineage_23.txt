@@ -1,3 +1,14 @@
+20260913
+- Probably last build for 23.2
+- ship with latest prebuilt kernel
+==============================
+ROM side:
+- merged September ASB and upstream LineageOS changes
+- Fix ThemePicker crash when clock typeface roundness is changed (caused by broken snackbar impl).
+- ship non-"flex" version of Google Sans, again, after Google fully open-sourcing it
+- sepolicy: Add relabeling support for media storage (fixes Android/data directory issue, I guess?)
+- and misc. things that I don't mention probably
+
 20260823
 - re-enable DT2W for ft8006s_spi (kernel side)
 - Updated kernel to 4.19.325-cip135-st19
