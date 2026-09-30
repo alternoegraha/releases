@@ -1,0 +1,5 @@
+20260930
+- Disable dual shade QS and Scene container (causes perf degradation and buggy)
+
+20260929
+- Initial build
