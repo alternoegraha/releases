@@ -1,3 +1,10 @@
+20261022
+- enable Circle to Search in vanilla builds (you can use Circle to Search now if you're using microG, but Google app still needed to make this work)
+- Updated prebuilt kernel
+- Sync latest changes from LineageOS upstream
+- disable verification_service aconfig flags
+- Revert "release: Disable native app zygote prototype flags in cp2a" (chrome browser issue now fixed after enabling CONFIG_CHECKPOINT_RESTORE and CONFIG_PROC_CHILDREN in kernel)
+
 20261010
 - oct secpatch
 - manual cellular network scanning issue should be fixed now
